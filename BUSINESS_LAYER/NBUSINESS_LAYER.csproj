@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2ACA26F6-8C7F-4703-9C67-89B43008D05D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BUSINESS_LAYER</RootNamespace>
+    <AssemblyName>BUSINESS_LAYER</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>photo5109469726307887456_AV6_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CATTLE\N_CATEGORY.cs" />
+    <Compile Include="CATTLE\N_CATTLE.cs" />
+    <Compile Include="CATTLE\N_RACE.cs" />
+    <Compile Include="N_CUSTOMER.cs" />
+    <Compile Include="N_DASHBOARD.cs" />
+    <Compile Include="N_DEATH.cs" />
+    <Compile Include="N_JOB.cs" />
+    <Compile Include="N_MILKSALE.cs" />
+    <Compile Include="N_PRICEWORK.cs" />
+    <Compile Include="N_PURCHASE.cs" />
+    <Compile Include="N_SALES.cs" />
+    <Compile Include="N_SUPPLIER.cs" />
+    <Compile Include="N_WORKERS.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DATA_LAYER\DATA_LAYER.csproj">
+      <Project>{72d7d66f-a50d-4728-9114-74e7e764196b}</Project>
+      <Name>DATA_LAYER</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ENTITIES_LAYER\ENTITIES_LAYER.csproj">
+      <Project>{5b3c5a6c-bcb4-4f6e-b59d-a522192d822f}</Project>
+      <Name>ENTITIES_LAYER</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="photo5109469726307887456_AV6_icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

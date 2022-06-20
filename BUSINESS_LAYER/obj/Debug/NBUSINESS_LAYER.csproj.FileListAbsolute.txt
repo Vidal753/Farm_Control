@@ -1,0 +1,11 @@
+C:\Users\vidal\source\repos\FARM_CONTROL\BUSINESS_LAYER\bin\Debug\BUSINESS_LAYER.dll
+C:\Users\vidal\source\repos\FARM_CONTROL\BUSINESS_LAYER\bin\Debug\BUSINESS_LAYER.pdb
+C:\Users\vidal\source\repos\FARM_CONTROL\BUSINESS_LAYER\bin\Debug\DATA_LAYER.dll
+C:\Users\vidal\source\repos\FARM_CONTROL\BUSINESS_LAYER\bin\Debug\ENTITIES_LAYER.dll
+C:\Users\vidal\source\repos\FARM_CONTROL\BUSINESS_LAYER\bin\Debug\DATA_LAYER.pdb
+C:\Users\vidal\source\repos\FARM_CONTROL\BUSINESS_LAYER\bin\Debug\ENTITIES_LAYER.pdb
+C:\Users\vidal\source\repos\FARM_CONTROL\BUSINESS_LAYER\obj\Debug\NBUSINESS_LAYER.csproj.AssemblyReference.cache
+C:\Users\vidal\source\repos\FARM_CONTROL\BUSINESS_LAYER\obj\Debug\NBUSINESS_LAYER.csproj.CoreCompileInputs.cache
+C:\Users\vidal\source\repos\FARM_CONTROL\BUSINESS_LAYER\obj\Debug\NBUSINESS_LAYER.csproj.CopyComplete
+C:\Users\vidal\source\repos\FARM_CONTROL\BUSINESS_LAYER\obj\Debug\BUSINESS_LAYER.dll
+C:\Users\vidal\source\repos\FARM_CONTROL\BUSINESS_LAYER\obj\Debug\BUSINESS_LAYER.pdb
